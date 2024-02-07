@@ -14,6 +14,6 @@ button.click()
 button.click()
 button.click()
 
-elements = driver.find_elements(By.CSS_SELECTOR, '.added-manually')
+elements = driver.find_elements(By.CSS_SELECTOR, '[onclick="deleteElement()"]')
 
 print(len(elements))
